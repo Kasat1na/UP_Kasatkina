@@ -1,0 +1,71 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+			   x:DataType="vm:Sale_historyViewModel"
+             xmlns:vm="using:MasterPol.ViewModels"
+             x:Class="MasterPol.Sale_history">
+
+	 <Grid Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="История продаж партнера"
+                   Grid.Row="0"
+                   HorizontalAlignment="Center"
+                   FontSize="24"
+                   FontWeight="Bold"
+                   Foreground="#67BA80"
+                   FontFamily="Segoe UI"
+                   Margin="20"/>
+		 
+		 <Button Content="Назад"
+                        Command="{Binding Exit}"
+                        Background="#67BA80"
+                        Foreground="White"
+                        HorizontalAlignment="Center"
+                        Width="150"
+                        Margin="0,60,0,0"
+                        FontSize="16"
+                        FontWeight="Bold"
+                        FontFamily="Segoe UI"
+                        BorderThickness="0"
+                        CornerRadius="10"
+                        VerticalContentAlignment="Center"
+                        HorizontalContentAlignment="Center"/>
+
+        <ScrollViewer Grid.Row="2" VerticalScrollBarVisibility="Auto">
+            <ListBox ItemsSource="{Binding PartnersProducts}" Background="White" HorizontalAlignment="Stretch">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Border BorderThickness="1" CornerRadius="10" Padding="15" Margin="10" Background="#F4E8D3">
+                            <Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="3*"/>
+                                    <ColumnDefinition Width="1*"/>
+                                </Grid.ColumnDefinitions>
+                                <StackPanel Grid.Column="0" HorizontalAlignment="Stretch">
+                                    <TextBlock FontFamily="Segoe UI" FontSize="16" FontWeight="Bold">
+                                        <TextBlock.Text>
+                                            <MultiBinding StringFormat="{}{0} | {1}">
+                                                <Binding Path="Partner.PartnerName"/>
+                                                <Binding Path="Product.ProductName"/>
+                                            </MultiBinding>
+                                        </TextBlock.Text>
+                                    </TextBlock>
+                                    <TextBlock Text="{Binding Quantity}" Foreground="#67BA80" FontFamily="Segoe UI" FontSize="14"/>
+									<TextBlock Text="{Binding SaleDate, StringFormat='{}{0:dd.MM.yyyy}'}" FontFamily="Segoe UI" FontSize="14"/>
+                                </StackPanel>
+                            </Grid>
+                        </Border>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+			
+        </ScrollViewer>
+    </Grid>
+</UserControl>

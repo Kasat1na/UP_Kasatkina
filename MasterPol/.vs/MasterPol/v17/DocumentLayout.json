@@ -1,0 +1,321 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\MasterPol\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D5AB3892-2A5D-4948-BA1D-23C105ADFDF6}|MasterPol\\MasterPol.csproj|c:\\users\\user\\source\\repos\\masterpol\\masterpol\\viewmodels\\sale_historyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5AB3892-2A5D-4948-BA1D-23C105ADFDF6}|MasterPol\\MasterPol.csproj|solutionrelative:masterpol\\viewmodels\\sale_historyviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5AB3892-2A5D-4948-BA1D-23C105ADFDF6}|MasterPol\\MasterPol.csproj|c:\\users\\user\\source\\repos\\masterpol\\masterpol\\views\\sale_history.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{D5AB3892-2A5D-4948-BA1D-23C105ADFDF6}|MasterPol\\MasterPol.csproj|solutionrelative:masterpol\\views\\sale_history.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5AB3892-2A5D-4948-BA1D-23C105ADFDF6}|MasterPol\\MasterPol.csproj|c:\\users\\user\\source\\repos\\masterpol\\masterpol\\viewmodels\\showviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5AB3892-2A5D-4948-BA1D-23C105ADFDF6}|MasterPol\\MasterPol.csproj|solutionrelative:masterpol\\viewmodels\\showviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5AB3892-2A5D-4948-BA1D-23C105ADFDF6}|MasterPol\\MasterPol.csproj|c:\\users\\user\\source\\repos\\masterpol\\masterpol\\viewmodels\\addviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5AB3892-2A5D-4948-BA1D-23C105ADFDF6}|MasterPol\\MasterPol.csproj|solutionrelative:masterpol\\viewmodels\\addviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5AB3892-2A5D-4948-BA1D-23C105ADFDF6}|MasterPol\\MasterPol.csproj|c:\\users\\user\\source\\repos\\masterpol\\masterpol\\views\\add.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{D5AB3892-2A5D-4948-BA1D-23C105ADFDF6}|MasterPol\\MasterPol.csproj|solutionrelative:masterpol\\views\\add.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5AB3892-2A5D-4948-BA1D-23C105ADFDF6}|MasterPol\\MasterPol.csproj|c:\\users\\user\\source\\repos\\masterpol\\masterpol\\views\\show.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{D5AB3892-2A5D-4948-BA1D-23C105ADFDF6}|MasterPol\\MasterPol.csproj|solutionrelative:masterpol\\views\\show.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5AB3892-2A5D-4948-BA1D-23C105ADFDF6}|MasterPol\\MasterPol.csproj|c:\\users\\user\\source\\repos\\masterpol\\masterpol\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5AB3892-2A5D-4948-BA1D-23C105ADFDF6}|MasterPol\\MasterPol.csproj|solutionrelative:masterpol\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5AB3892-2A5D-4948-BA1D-23C105ADFDF6}|MasterPol\\MasterPol.csproj|c:\\users\\user\\source\\repos\\masterpol\\masterpol\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5AB3892-2A5D-4948-BA1D-23C105ADFDF6}|MasterPol\\MasterPol.csproj|solutionrelative:masterpol\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5AB3892-2A5D-4948-BA1D-23C105ADFDF6}|MasterPol\\MasterPol.csproj|c:\\users\\user\\source\\repos\\masterpol\\masterpol\\models\\partnersproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5AB3892-2A5D-4948-BA1D-23C105ADFDF6}|MasterPol\\MasterPol.csproj|solutionrelative:masterpol\\models\\partnersproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5AB3892-2A5D-4948-BA1D-23C105ADFDF6}|MasterPol\\MasterPol.csproj|c:\\users\\user\\source\\repos\\masterpol\\masterpol\\models\\partnertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5AB3892-2A5D-4948-BA1D-23C105ADFDF6}|MasterPol\\MasterPol.csproj|solutionrelative:masterpol\\models\\partnertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5AB3892-2A5D-4948-BA1D-23C105ADFDF6}|MasterPol\\MasterPol.csproj|c:\\users\\user\\source\\repos\\masterpol\\masterpol\\models\\partner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5AB3892-2A5D-4948-BA1D-23C105ADFDF6}|MasterPol\\MasterPol.csproj|solutionrelative:masterpol\\models\\partner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5AB3892-2A5D-4948-BA1D-23C105ADFDF6}|MasterPol\\MasterPol.csproj|c:\\users\\user\\source\\repos\\masterpol\\masterpol\\models\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5AB3892-2A5D-4948-BA1D-23C105ADFDF6}|MasterPol\\MasterPol.csproj|solutionrelative:masterpol\\models\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5AB3892-2A5D-4948-BA1D-23C105ADFDF6}|MasterPol\\MasterPol.csproj|c:\\users\\user\\source\\repos\\masterpol\\masterpol\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5AB3892-2A5D-4948-BA1D-23C105ADFDF6}|MasterPol\\MasterPol.csproj|solutionrelative:masterpol\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5AB3892-2A5D-4948-BA1D-23C105ADFDF6}|MasterPol\\MasterPol.csproj|c:\\users\\user\\source\\repos\\masterpol\\masterpol\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{D5AB3892-2A5D-4948-BA1D-23C105ADFDF6}|MasterPol\\MasterPol.csproj|solutionrelative:masterpol\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5AB3892-2A5D-4948-BA1D-23C105ADFDF6}|MasterPol\\MasterPol.csproj|c:\\users\\user\\source\\repos\\masterpol\\masterpol\\views\\add.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5AB3892-2A5D-4948-BA1D-23C105ADFDF6}|MasterPol\\MasterPol.csproj|solutionrelative:masterpol\\views\\add.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5AB3892-2A5D-4948-BA1D-23C105ADFDF6}|MasterPol\\MasterPol.csproj|c:\\users\\user\\source\\repos\\masterpol\\masterpol\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{D5AB3892-2A5D-4948-BA1D-23C105ADFDF6}|MasterPol\\MasterPol.csproj|solutionrelative:masterpol\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5AB3892-2A5D-4948-BA1D-23C105ADFDF6}|MasterPol\\MasterPol.csproj|c:\\users\\user\\source\\repos\\masterpol\\masterpol\\views\\show.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5AB3892-2A5D-4948-BA1D-23C105ADFDF6}|MasterPol\\MasterPol.csproj|solutionrelative:masterpol\\views\\show.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5AB3892-2A5D-4948-BA1D-23C105ADFDF6}|MasterPol\\MasterPol.csproj|c:\\users\\user\\source\\repos\\masterpol\\masterpol\\models\\_43pkasatkinaupcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5AB3892-2A5D-4948-BA1D-23C105ADFDF6}|MasterPol\\MasterPol.csproj|solutionrelative:masterpol\\models\\_43pkasatkinaupcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Sale_history.axaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MasterPol\\MasterPol\\Views\\Sale_history.axaml",
+              "RelativeDocumentMoniker": "MasterPol\\Views\\Sale_history.axaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MasterPol\\MasterPol\\Views\\Sale_history.axaml",
+              "RelativeToolTip": "MasterPol\\Views\\Sale_history.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-05T14:28:26.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShowViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MasterPol\\MasterPol\\ViewModels\\ShowViewModel.cs",
+              "RelativeDocumentMoniker": "MasterPol\\ViewModels\\ShowViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MasterPol\\MasterPol\\ViewModels\\ShowViewModel.cs",
+              "RelativeToolTip": "MasterPol\\ViewModels\\ShowViewModel.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAwwDIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T13:33:21.097Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Sale_historyViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MasterPol\\MasterPol\\ViewModels\\Sale_historyViewModel.cs",
+              "RelativeDocumentMoniker": "MasterPol\\ViewModels\\Sale_historyViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MasterPol\\MasterPol\\ViewModels\\Sale_historyViewModel.cs",
+              "RelativeToolTip": "MasterPol\\ViewModels\\Sale_historyViewModel.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAADwvxsAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T14:08:52.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Show.axaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MasterPol\\MasterPol\\Views\\Show.axaml",
+              "RelativeDocumentMoniker": "MasterPol\\Views\\Show.axaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MasterPol\\MasterPol\\Views\\Show.axaml",
+              "RelativeToolTip": "MasterPol\\Views\\Show.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-03T13:33:04.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MasterPol\\MasterPol\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "MasterPol\\ViewModels\\MainWindowViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MasterPol\\MasterPol\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeToolTip": "MasterPol\\ViewModels\\MainWindowViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T13:24:54.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MasterPol\\MasterPol\\ViewModels\\AddViewModel.cs",
+              "RelativeDocumentMoniker": "MasterPol\\ViewModels\\AddViewModel.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MasterPol\\MasterPol\\ViewModels\\AddViewModel.cs",
+              "RelativeToolTip": "MasterPol\\ViewModels\\AddViewModel.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAcwIoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T13:52:35.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MasterPol\\MasterPol\\ViewModels\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "MasterPol\\ViewModels\\ViewModelBase.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MasterPol\\MasterPol\\ViewModels\\ViewModelBase.cs",
+              "RelativeToolTip": "MasterPol\\ViewModels\\ViewModelBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T13:52:47.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Add.axaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MasterPol\\MasterPol\\Views\\Add.axaml",
+              "RelativeDocumentMoniker": "MasterPol\\Views\\Add.axaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MasterPol\\MasterPol\\Views\\Add.axaml",
+              "RelativeToolTip": "MasterPol\\Views\\Add.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-05T14:28:17.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PartnersProduct.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MasterPol\\MasterPol\\Models\\PartnersProduct.cs",
+              "RelativeDocumentMoniker": "MasterPol\\Models\\PartnersProduct.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MasterPol\\MasterPol\\Models\\PartnersProduct.cs",
+              "RelativeToolTip": "MasterPol\\Models\\PartnersProduct.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T13:50:09.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PartnerType.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MasterPol\\MasterPol\\Models\\PartnerType.cs",
+              "RelativeDocumentMoniker": "MasterPol\\Models\\PartnerType.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MasterPol\\MasterPol\\Models\\PartnerType.cs",
+              "RelativeToolTip": "MasterPol\\Models\\PartnerType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T13:33:09.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Partner.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MasterPol\\MasterPol\\Models\\Partner.cs",
+              "RelativeDocumentMoniker": "MasterPol\\Models\\Partner.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MasterPol\\MasterPol\\Models\\Partner.cs",
+              "RelativeToolTip": "MasterPol\\Models\\Partner.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAxwAwAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T13:48:03.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Material.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MasterPol\\MasterPol\\Models\\Material.cs",
+              "RelativeDocumentMoniker": "MasterPol\\Models\\Material.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MasterPol\\MasterPol\\Models\\Material.cs",
+              "RelativeToolTip": "MasterPol\\Models\\Material.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T13:48:03.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MasterPol\\MasterPol\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "MasterPol\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MasterPol\\MasterPol\\Models\\Product.cs",
+              "RelativeToolTip": "MasterPol\\Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-05T14:21:25.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MasterPol\\MasterPol\\Views\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "MasterPol\\Views\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MasterPol\\MasterPol\\Views\\MainWindow.axaml",
+              "RelativeToolTip": "MasterPol\\Views\\MainWindow.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-03T13:24:58.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Add.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MasterPol\\MasterPol\\Views\\Add.axaml.cs",
+              "RelativeDocumentMoniker": "MasterPol\\Views\\Add.axaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MasterPol\\MasterPol\\Views\\Add.axaml.cs",
+              "RelativeToolTip": "MasterPol\\Views\\Add.axaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T13:52:17.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "App.axaml",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MasterPol\\MasterPol\\App.axaml",
+              "RelativeDocumentMoniker": "MasterPol\\App.axaml",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MasterPol\\MasterPol\\App.axaml",
+              "RelativeToolTip": "MasterPol\\App.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-04T13:35:46.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Show.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MasterPol\\MasterPol\\Views\\Show.axaml.cs",
+              "RelativeDocumentMoniker": "MasterPol\\Views\\Show.axaml.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MasterPol\\MasterPol\\Views\\Show.axaml.cs",
+              "RelativeToolTip": "MasterPol\\Views\\Show.axaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T13:33:04.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_43pKasatkinaUpContext.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\MasterPol\\MasterPol\\Models\\_43pKasatkinaUpContext.cs",
+              "RelativeDocumentMoniker": "MasterPol\\Models\\_43pKasatkinaUpContext.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\MasterPol\\MasterPol\\Models\\_43pKasatkinaUpContext.cs",
+              "RelativeToolTip": "MasterPol\\Models\\_43pKasatkinaUpContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T13:32:26.722Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

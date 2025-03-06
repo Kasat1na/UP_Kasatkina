@@ -1,0 +1,74 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:DataType="vm:AddViewModel"
+             xmlns:vm="using:MasterPol.ViewModels"
+             x:Class="MasterPol.Add">
+
+	<Grid Background="White">
+		<Border Background="#F4E8D3" Padding="25" CornerRadius="10"
+                HorizontalAlignment="Center" VerticalAlignment="Center">
+			<StackPanel Width="550" VerticalAlignment="Top" HorizontalAlignment="Stretch">
+				<TextBlock Text="Редактировать/Добавить"
+                           FontSize="18" FontWeight="Bold"
+                           HorizontalAlignment="Center" Foreground="#67BA80"
+                           FontFamily="Segoe UI"/>
+				<TextBlock Text="Наименование" FontWeight="Bold" FontFamily="Segoe UI"/>
+				<TextBox Text="{Binding NewPartner.PartnerName, Mode=TwoWay}" Margin="0,5,0,10" FontFamily="Segoe UI"/>
+
+				<TextBlock Text="Тип партнера" FontWeight="Bold" Margin="0,0,0,10" FontFamily="Segoe UI"/>
+				<ComboBox ItemsSource="{Binding PartnerTypes}"
+                          SelectedItem="{Binding NewPartner.PartnerType, Mode=TwoWay}"
+                          DisplayMemberBinding="{Binding TypeName}"
+                          Margin="0,5,0,10" FontFamily="Segoe UI" />
+
+				<TextBlock Text="Рейтинг" FontWeight="Bold" FontFamily="Segoe UI"/>
+				<TextBox Text="{Binding NewPartner.Rating, Mode=TwoWay}" Margin="0,5,0,10" FontFamily="Segoe UI"/>
+
+				<TextBlock Text="Адрес" FontWeight="Bold" FontFamily="Segoe UI"/>
+				<TextBox Text="{Binding NewPartner.LegalAddress, Mode=TwoWay}" Margin="0,5,0,10" FontFamily="Segoe UI"/>
+
+				<TextBlock Text="ФИО директора" FontWeight="Bold" FontFamily="Segoe UI"/>
+				<TextBox Text="{Binding NewPartner.DirectorName, Mode=TwoWay}" Margin="0,5,0,10" FontFamily="Segoe UI"/>
+
+				<TextBlock Text="Телефон" FontWeight="Bold" FontFamily="Segoe UI"/>
+				<TextBox Text="{Binding NewPartner.Phone, Mode=TwoWay}" Margin="0,5,0,10" FontFamily="Segoe UI"/>
+
+				<TextBlock Text="Email" FontWeight="Bold" FontFamily="Segoe UI"/>
+				<TextBox Text="{Binding NewPartner.Email, Mode=TwoWay}" Margin="0,5,0,10" FontFamily="Segoe UI"/>
+
+				<Button Content="Сохранить"
+                        Command="{Binding SavePartner}"
+                        Background="#67BA80"
+                        Foreground="White"
+                        HorizontalAlignment="Center"
+                        Width="150"
+                        Margin="0,10,0,0"
+                        FontSize="16"
+                        FontWeight="Bold"
+                        FontFamily="Segoe UI"
+                        BorderThickness="0"
+                        CornerRadius="10"
+                        VerticalContentAlignment="Center"
+                        HorizontalContentAlignment="Center"/>
+				
+				<Button Content="Назад"
+                        Command="{Binding Exit}"
+                        Background="#67BA80"
+                        Foreground="White"
+                        HorizontalAlignment="Center"
+                        Width="150"
+                        Margin="0,10,0,0"
+                        FontSize="16"
+                        FontWeight="Bold"
+                        FontFamily="Segoe UI"
+                        BorderThickness="0"
+                        CornerRadius="10"
+                        VerticalContentAlignment="Center"
+                        HorizontalContentAlignment="Center"/>
+			</StackPanel>
+		</Border>
+	</Grid>
+</UserControl>

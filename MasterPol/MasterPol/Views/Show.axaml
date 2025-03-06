@@ -1,0 +1,100 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:DataType="vm:ShowViewModel"
+             xmlns:vm="using:MasterPol.ViewModels"
+             x:Class="MasterPol.Show">
+
+	<Grid Background="White">
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions>
+
+		<TextBlock Text="Мастер Пол"
+                   Grid.Row="0"
+                   HorizontalAlignment="Center"
+                   FontSize="24"
+                   FontWeight="Bold"
+                   Foreground="#67BA80"
+                   FontFamily="Segoe UI"
+                   Margin="20"/>
+
+		<Button Grid.Row="1"
+                Command="{Binding ToAdd}"
+                Content="Добавить"
+                HorizontalAlignment="Center"
+                Background="#67BA80"
+                Foreground="White"
+                FontSize="16"
+                FontWeight="Bold"
+                FontFamily="Segoe UI"
+                BorderThickness="0"
+                CornerRadius="10"
+                VerticalContentAlignment="Center"
+                HorizontalContentAlignment="Center"
+                Margin="0 0 0 10"/>
+
+		<ScrollViewer Grid.Row="2" VerticalScrollBarVisibility="Auto">
+			<ListBox ItemsSource="{Binding PartnerList}" Background="White" HorizontalAlignment="Stretch">
+				<ListBox.ItemTemplate>
+					<DataTemplate>
+						<StackPanel>
+							<Button Command="{Binding $parent[UserControl].((vm:ShowViewModel)DataContext).ToUpdate}"
+                                    CommandParameter="{Binding Id}"
+                                    Background="Transparent"
+                                    BorderThickness="0"
+                                    Padding="0"
+                                    HorizontalAlignment="Stretch">
+								<Border BorderThickness="1" CornerRadius="10" Padding="15" Margin="10" Background="#F4E8D3">
+									<Grid HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+										<Grid.ColumnDefinitions>
+											<ColumnDefinition Width="3*"/>
+											<ColumnDefinition Width="1*"/>
+										</Grid.ColumnDefinitions>
+										<StackPanel Grid.Column="0" HorizontalAlignment="Stretch">
+											<TextBlock FontFamily="Segoe UI" FontSize="16" FontWeight="Bold">
+												<TextBlock.Text>
+													<MultiBinding StringFormat="{}{0} | {1}">
+														<Binding Path="PartnerType.TypeName"/>
+														<Binding Path="PartnerName"/>
+													</MultiBinding>
+												</TextBlock.Text>
+											</TextBlock>
+											<TextBlock Text="{Binding DirectorName}" Foreground="#67BA80" FontFamily="Segoe UI" FontSize="14"/>
+											<TextBlock Text="{Binding Phone}" FontFamily="Segoe UI" FontSize="14"/>
+											<TextBlock Text="{Binding Rating, StringFormat='Рейтинг: {0}'}" FontFamily="Segoe UI" FontSize="14"/>
+										</StackPanel>
+										<TextBlock Grid.Column="1"
+                                                   Text="{Binding Discount, StringFormat='Скидка: {0}%'}"
+                                                   HorizontalAlignment="Center"
+                                                   VerticalAlignment="Center"
+                                                   FontWeight="Bold"
+                                                   FontSize="16"
+                                                   FontFamily="Segoe UI"/>
+									</Grid>
+								</Border>
+							</Button>
+							<Button Command="{Binding $parent[UserControl].((vm:ShowViewModel)DataContext).ToSale}"
+                                    CommandParameter="{Binding Id}"
+                                    Content="Перейти к продажам"
+                                    Background="#67BA80"
+                                    Foreground="White"
+                                    FontSize="14"
+                                    FontWeight="Bold"
+                                    FontFamily="Segoe UI"
+                                    BorderThickness="0"
+                                    CornerRadius="10"
+                                    VerticalContentAlignment="Center"
+                                    HorizontalContentAlignment="Center"
+                                    Margin="10,5,10,10"/>
+						</StackPanel>
+					</DataTemplate>
+				</ListBox.ItemTemplate>
+			</ListBox>
+		</ScrollViewer>
+	</Grid>
+</UserControl>
